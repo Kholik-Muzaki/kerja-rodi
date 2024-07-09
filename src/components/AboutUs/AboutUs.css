@@ -1,0 +1,30 @@
+.about-us {
+   height: 100vh;
+   /* background: linear-gradient(135deg, #ffcc33, #ff6699, #33ccff); */
+   background-image: url("/src/assets/image-header.png");
+   background-size: 70%;
+   background-position: bottom;
+   background-repeat: no-repeat;
+}
+
+.about-us h2 {
+   font-family: "Manrope", sans-serif;
+   margin-top: 50px;
+   font-size: 50px;
+   font-weight: 600;
+   line-height: 58px;
+}
+
+h2 .yellow-title {
+   color: #ed8e1f;
+}
+
+h2 .blue-title {
+   color: #1a6f8a;
+}
+
+.about-us p {
+   font-family: "Manrope", sans-serif;
+   font-size: 18px;
+   color: #9b9b9b;
+}   

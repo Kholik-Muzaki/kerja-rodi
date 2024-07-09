@@ -1,0 +1,88 @@
+/* Navbar.css */
+
+.navbar {
+   background-color: #211d1a;
+   font-family: "Manrope", sans-serif;
+   font-size: 16px;
+}
+
+.navbar-brand {
+   color: #9e9e9e;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.navbar-brand a {
+   color: #fff;
+}
+
+.navbar-brand .k-brand {
+   color: #ed8e1f; /* Warna khusus untuk huruf "K" dan "R" */
+}
+
+.navbar-brand .r-brand {
+   color: #1a6f8a !important;
+}
+
+.nav-link {
+   color: #9e9e9e !important;
+}
+
+.nav-link.active {
+   color: #ed8e1f !important; /* Warna khusus untuk link aktif */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+   color: #ed8e1f !important; /* Warna link saat hover atau fokus */
+}
+
+.btn-sign-in {
+   color: #fff !important;
+   background-color: #ed8e1f !important;
+   font-size: 16px;
+   width: 132px;
+}
+
+.btn-sign-up {
+   color: #fff !important;
+   font-size: 16px;
+   width: 132px;
+}
+
+.btn-sign-up:hover {
+   border: 1px solid #ed8e1f !important;
+}
+
+.form-control {
+   border-color: #9e9e9e;
+}
+
+.form-control:focus {
+   border-color: #9e9e9e;
+   box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(158, 158, 158, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+   display: flex;
+   justify-content: space-between;
+}
+
+.menu-left {
+   width: 422px;
+}
+
+.menu-left .navbar-nav {
+   display: flex;
+   justify-content: space-around;
+}
+
+.menu-right {
+   width: 253px;
+   display: flex;
+   justify-content: flex-end;
+}

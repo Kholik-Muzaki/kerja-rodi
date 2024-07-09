@@ -1,0 +1,36 @@
+.card {
+   font-family: "Manrope", sans-serif;
+   border: 0px solid whitesmoke;
+}
+
+.card-img-top {
+   max-height: 34px;
+   max-width: 34px;
+   width: 100%;
+   height: 100%;
+   margin-bottom: 2em;
+}
+
+.border-img {
+   border-radius: 50%;
+   max-height: 34px;
+   max-width: 34px;
+   width: 100%;
+   height: 100%;
+   background-color: #ed8e1f;
+   border: 8px solid #ed8e1f;
+}
+
+.card-title {
+   font-size: 24px;
+   font-weight: 500;
+   margin-bottom: 1em;
+   color: #111315;
+   margin-top: 8px;
+}
+
+.card-text {
+   font-size: 18px;
+   font-weight: 400;
+   color: #9e9e9e;
+}

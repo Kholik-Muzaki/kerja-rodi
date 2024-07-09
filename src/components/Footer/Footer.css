@@ -1,0 +1,56 @@
+footer {
+   height: auto;
+   background-color: #211d1a;
+   color: #fff;
+   font-family: "Manrope", sans-serif;
+   padding: 5em;
+}
+
+.h2-footer {
+   font-size: 28px;
+   font-weight: 800;
+}
+
+.k-brand-footer {
+   color: #ed8e1f;
+}
+
+.r-brand-footer {
+   color: #1a6f8a !important;
+}
+
+.p-footer-brand {
+   font-size: 18px;
+   font-weight: 300;
+   color: #9e9e9e;
+}
+
+.sosial-media i {
+   margin-right: 10px;
+}
+
+.h3-footer {
+   font-size: 20px;
+   color: #fff;
+   font-weight: 700;
+}
+
+.p-footer-link {
+   font-size: 16px;
+   color: #9e9e9e;
+}
+
+.btn-sub {
+    background-color: #ed8e1f !important;
+    color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+   footer {
+      padding: 2em;
+      text-align: center;
+   }
+   .h3-footer {
+      margin-top: 30px;
+   }
+}

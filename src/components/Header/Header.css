@@ -1,0 +1,43 @@
+header {
+   background-color: #211d1a;
+   height: 100vh;
+   background-image: url("/src/assets/image-header.png");
+   background-size: 70%;
+   background-position: bottom;
+   background-repeat: no-repeat;
+}
+
+header h2 {
+   color: #fff;
+   font-family: "Manrope", sans-serif;
+   font-size: 50px;
+   font-weight: 600;
+   line-height: 58px;
+   margin-top: 80px;
+}
+
+h2 .job-title {
+   color: #ed8e1f;
+}
+
+h2 .worker-title {
+   color: #1a6f8a;
+}
+
+header p {
+   color: #9b9b9b;
+   font-family: "Manrope", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 26px;
+   margin-top: 20px;
+}
+
+.btn-get-started {
+   margin-top: 20px;
+   color: #ed8e1f !important;
+   width: 200px;
+   height: 60px;
+   border: 1px solid #ed8e1f !important;
+   border-radius: 10px;
+}

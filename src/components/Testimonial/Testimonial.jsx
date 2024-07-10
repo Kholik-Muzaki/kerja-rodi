@@ -1,9 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Testimonial.css';
 import kholik1 from '../../assets/kholik1.png'
 import kholik2 from '../../assets/kholik2.png'
-2
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Testimonial = () => {
+
+    useEffect(() => {
+        AOS.init();
+    })
     const [testimonialIndex, setTestimonialIndex] = useState(0);
     const testimonials = [
         {
@@ -31,25 +37,28 @@ const Testimonial = () => {
     const { name, title, image, text } = testimonials[testimonialIndex];
 
     return (
-        <div className="container container-testimonial">
-            <div className="row">
-                <div className="col-4 col-testimonial">
-                    <img src={image} alt={name} className='img-testimonial' />
-                </div>
-                <div className="col-8">
-                    <h2 className='h2-title'>What do they <span className='h2-yellow'>think about</span> <br /> <span className='h2-blue'>our App?</span></h2>
-                    <h3 className='h3-title mt-5'>{name}</h3>
-                    <h6 className='h6-title'>{title}</h6>
-                    <div className="card-testimonial">
-                        <p>{text}</p>
+        <div data-aos="fade-up" data-aos-duration="3000">
+            <div className="container container-testimonial">
+                <div className="row">
+                    <div className="col-4 col-testimonial">
+                        <img src={image} alt={name} className='img-testimonial' />
                     </div>
-                    <div className="navigation-buttons">
-                        <button onClick={prevTestimonial} className="nav-button" disabled={testimonialIndex === 0}>&lt;</button>
-                        <button onClick={nextTestimonial} className="nav-button" disabled={testimonialIndex === testimonials.length - 1}>&gt;</button>
+                    <div className="col-8">
+                        <h2 className='h2-title'>What do they <span className='h2-yellow'>think about</span> <br /> <span className='h2-blue'>our App?</span></h2>
+                        <h3 className='h3-title mt-5'>{name}</h3>
+                        <h6 className='h6-title'>{title}</h6>
+                        <div className="card-testimonial">
+                            <p>{text}</p>
+                        </div>
+                        <div className="navigation-buttons">
+                            <button onClick={prevTestimonial} className="nav-button" disabled={testimonialIndex === 0}>&lt;</button>
+                            <button onClick={nextTestimonial} className="nav-button" disabled={testimonialIndex === testimonials.length - 1}>&gt;</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     );
 }
 

@@ -9,14 +9,14 @@ const Features = () => {
     return (
         <div className="features">
             <div className="container">
-                <div className="row">
-                    <div className="col-6">
+                <div className="row row-features">
+                    <div className="col-sm-12 col-md-12 col-lg-6">
                         <h2 className="text-left">
                             We <span className="provide-title">provide</span> excellent <br />
                             <span className="features-title"> Features</span> from us
                         </h2>
                     </div>
-                    <div className="col-6 d-flex align-items-center">
+                    <div className="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
                         <p className='title-text'>
                             We shall never deny a guest, even the most ridiculous
                             request. We provide excellent features from us

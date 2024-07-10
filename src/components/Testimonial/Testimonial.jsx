@@ -33,7 +33,7 @@ const Testimonial = () => {
     return (
         <div className="container container-testimonial">
             <div className="row">
-                <div className="col-4">
+                <div className="col-4 col-testimonial">
                     <img src={image} alt={name} className='img-testimonial' />
                 </div>
                 <div className="col-8">

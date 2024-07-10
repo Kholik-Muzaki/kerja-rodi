@@ -72,3 +72,13 @@
 .nav-button:disabled {
    background-color: #ccc;
 }
+
+@media screen and (max-width: 768px) {
+   .col-testimonial {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   
+}

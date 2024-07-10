@@ -27,4 +27,29 @@ h2 .blue-title {
    font-family: "Manrope", sans-serif;
    font-size: 18px;
    color: #9b9b9b;
-}   
+}
+
+@media screen and (max-width: 768px) {
+   /* .about-us {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   } */
+
+   .about-us h2 {
+      font-family: "Manrope", sans-serif;
+      margin-top: 50px;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48px;
+      margin-top: 4em;
+   }
+
+   .about-us p {
+      font-family: "Manrope", sans-serif;
+      font-size: 16px;
+      color: #9b9b9b;
+   }
+}

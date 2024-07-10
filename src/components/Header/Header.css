@@ -41,3 +41,44 @@ header p {
    border: 1px solid #ed8e1f !important;
    border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+   header {
+      background-size: 70%;
+      background-position: bottom;
+   }
+
+   .col-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   header h2 {
+      color: #fff;
+      font-family: "Manrope", sans-serif;
+      font-size: 40px;
+      line-height: 48px;
+      margin-top: 30%;
+      text-align: center;
+   }
+
+   header p {
+      color: #9b9b9b;
+      font-family: "Manrope", sans-serif;
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 20px;
+      text-align: center;
+   }
+
+   .btn-get-started {
+      margin-top: 20px;
+      color: #ed8e1f !important;
+      width: 150px;
+      height: auto;
+      border: 1px solid #ed8e1f !important;
+      border-radius: 10px;
+   }
+}

@@ -9,8 +9,8 @@ const Header = () => {
 
             <div className="content-header">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12 col-md-12 col-lg-6">
+                    <div className="row row-header">
+                        <div className="col-sm-12 col-md-12 col-lg-6 col-header">
                             <h2>
                                 Easy to find a <span className="job-title">Job</span> and <br />
                                 <span className="worker-title"> Worker </span> with Us
